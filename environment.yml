@@ -1,4 +1,4 @@
-name: example-environment
+name: environment.1
 channels:
   - conda-forge
   - bioconda
@@ -8,9 +8,12 @@ dependencies:
   - r-base=4.0
   - plotly
   - pandas
+  - scipy
   - matplotlib
   - scikit-learn
   - numpy
+  - statsmodels
+  - seaborn
   - r-dplyr
   - r-ggplot2
   - r-tidyverse
